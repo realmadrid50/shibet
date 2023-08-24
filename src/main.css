@@ -19,10 +19,10 @@ body {
   width: 100%;
   display: flex;
   color: white;
-  background-color: black;
+  background-color: #3d3d5a;
   align-items: center;
   flex-direction: column;
-  background: url("kick.webp") no-repeat center center /cover;
+  /* background: url("casino.png") no-repeat center center /cover; */
   justify-content: center;
   position: relative;
 }
@@ -34,7 +34,7 @@ body:after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.853); 
+  background-color: #000007a7; 
   z-index: -1;
 }
 
@@ -88,10 +88,10 @@ body:after {
 }
 
 .buts button {
-  background: linear-gradient(152.2deg,#2c6812, #30810e, #2d8209);
+  background-image: linear-gradient(90deg, #b80808, #3354ff 0%, #7433ff 0, #f30 0, #ff7b33 100%, #ff7c33);
   padding: 12px 40px;
   border-radius: 12px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   border: none;
   font-weight: 500;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './main.css'
-import Arbitrum from './arb.svg'
+import Arbitrum from './media/shib.svg'
 import Twitter from './socials-twitter.svg'
 import Telegram from './socials-telegram.svg'
 import Discord from './socials-discord.svg'
@@ -11,29 +11,29 @@ import Medium from './socials-medium.svg'
 function main() {
 
     const openTwitter = () => {
-        window.open("https://twitter.com/kickcoinarb");
+        window.open("https://twitter.com/ShibetCasino");
     }
 
     const tweet = () => {
-        window.open("https://twitter.com/intent/tweet?text=%24KICK%20is%20taking%20the%20W%20%F0%9F%9F%A2%0D%0A%0D%0AMake%20me%20rich%20with%20%40kickcoinarb%0D%0A")
+        window.open("https://twitter.com/intent/tweet?text=Risk%20it%20all%20on%20%40ShibetCasino%20with%20%24SHIBET%20%F0%9F%8E%B2&")
     }
     const telegram = () => {
-        window.open("https://t.me/KickArb")
+        window.open("https://t.me/ShibetCasino")
     }
 
   return (
     <div className='wrap'>
 
         <div className='title'>
-            <h1>TWITCH IS <br/>OUTDATED</h1>
+            <h1>SHIBET CASINO</h1>
         </div>
 
         <div className='paragraph'>
-            <p>Join the $KICK industry launching soon on Arbitrum</p>
+            <p>Join the $SHIBET industry launching soon on Shibarium</p>
         </div>
 
         <div className='buts'>
-            <button onClick={tweet}>Proof of $KICK</button>
+            <button onClick={tweet}>Proof of $SHIBET</button>
             
         </div>
 
